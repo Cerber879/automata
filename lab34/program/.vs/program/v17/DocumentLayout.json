@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConvertorToDKA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:ConvertorToDKA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConvertorToDKA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:ConvertorToDKA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ReaderNKA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:ReaderNKA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConverterToNKA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:ConverterToNKA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConverterToNKA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:ConverterToNKA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ReaderNKA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0990BEBE-4620-4B75-B201-ACE7027CFA87}|program.vcxproj|solutionrelative:ReaderNKA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 393,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T14:06:00.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConvertorToDKA.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConvertorToDKA.cpp",
+              "RelativeDocumentMoniker": "ConvertorToDKA.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConvertorToDKA.cpp",
+              "RelativeToolTip": "ConvertorToDKA.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-14T12:23:21.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Constants.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\Constants.h",
+              "RelativeDocumentMoniker": "Constants.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\Constants.h",
+              "RelativeToolTip": "Constants.h",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T10:37:33.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConverterToNKA.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConverterToNKA.h",
+              "RelativeDocumentMoniker": "ConverterToNKA.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConverterToNKA.h",
+              "RelativeToolTip": "ConverterToNKA.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T10:31:46.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConvertorToDKA.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConvertorToDKA.h",
+              "RelativeDocumentMoniker": "ConvertorToDKA.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConvertorToDKA.h",
+              "RelativeToolTip": "ConvertorToDKA.h",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T12:24:23.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReaderNKA.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ReaderNKA.h",
+              "RelativeDocumentMoniker": "ReaderNKA.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ReaderNKA.h",
+              "RelativeToolTip": "ReaderNKA.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T12:15:21.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConverterToNKA.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConverterToNKA.cpp",
+              "RelativeDocumentMoniker": "ConverterToNKA.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ConverterToNKA.cpp",
+              "RelativeToolTip": "ConverterToNKA.cpp",
+              "ViewState": "AQIAAPQAAAAAAAAAAAAowAkBAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-14T10:35:42.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReaderNKA.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ReaderNKA.cpp",
+              "RelativeDocumentMoniker": "ReaderNKA.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab34\\program\\ReaderNKA.cpp",
+              "RelativeToolTip": "ReaderNKA.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-14T12:16:03.399Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 129,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

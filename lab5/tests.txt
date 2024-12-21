@@ -1,0 +1,4 @@
+a*b*c+
+(a(b|c)d|abc*|c+)
+((ab|aab)*a*)*
+(abc|c+b*|@)acb+c(ab|ba)
