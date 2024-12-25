@@ -3,8 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:ConvertToNFA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToDFA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:ConvertToDFA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,30 +30,18 @@
       "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:ComputeEpsilonClosures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:ConvertToNFA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:ConvertToNFA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToDFA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|solutionrelative:ConvertToDFA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D643F55-D3B8-4351-BDAB-5E8E638E7823}|lab5.vcxproj|C:\\Users\\User\\source\\repos\\automata\\lab5\\tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
@@ -51,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 393,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,20 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConvertToDFA.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToDFA.cpp",
-              "RelativeDocumentMoniker": "ConvertToDFA.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToDFA.cpp",
-              "RelativeToolTip": "ConvertToDFA.cpp",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAowB4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T08:41:33.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
@@ -91,36 +81,117 @@
               "WhenOpened": "2024-12-15T15:54:08.421Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ConvertToNFA.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.cpp",
               "RelativeDocumentMoniker": "ConvertToNFA.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.cpp",
               "RelativeToolTip": "ConvertToNFA.cpp",
-              "ViewState": "AQIAAI0AAAAAAAAAAAArwHEAAAAOAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAMwFQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-20T18:23:19.035Z"
+              "WhenOpened": "2024-12-20T18:23:19.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "output.txt",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\output.txt",
+              "RelativeDocumentMoniker": "..\\output.txt",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\output.txt",
+              "RelativeToolTip": "..\\output.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-21T11:33:37.341Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConvertToDFA.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToDFA.cpp",
+              "RelativeDocumentMoniker": "ConvertToDFA.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToDFA.cpp",
+              "RelativeToolTip": "ConvertToDFA.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T08:41:33.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConvertToNFA.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.h",
+              "RelativeDocumentMoniker": "ConvertToNFA.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.h",
+              "RelativeToolTip": "ConvertToNFA.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-20T18:22:57.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComputeEpsilonClosures.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.cpp",
+              "RelativeDocumentMoniker": "ComputeEpsilonClosures.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.cpp",
+              "RelativeToolTip": "ComputeEpsilonClosures.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T08:03:03.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Constants.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\Constants.h",
+              "RelativeDocumentMoniker": "Constants.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\Constants.h",
+              "RelativeToolTip": "Constants.h",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAMwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T08:15:55.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAbAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAMwBMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-15T13:03:48.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComputeEpsilonClosures.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.h",
+              "RelativeDocumentMoniker": "ComputeEpsilonClosures.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.h",
+              "RelativeToolTip": "ComputeEpsilonClosures.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAMwBMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T07:59:09.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "tests.txt",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\tests.txt",
+              "RelativeDocumentMoniker": "..\\tests.txt",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\tests.txt",
+              "RelativeToolTip": "..\\tests.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-21T11:33:39.341Z"
             },
             {
               "$type": "Document",
@@ -136,75 +207,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "tests.txt",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\tests.txt",
-              "RelativeDocumentMoniker": "..\\tests.txt",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\tests.txt",
-              "RelativeToolTip": "..\\tests.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-21T11:33:39.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ComputeEpsilonClosures.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.h",
-              "RelativeDocumentMoniker": "ComputeEpsilonClosures.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.h",
-              "RelativeToolTip": "ComputeEpsilonClosures.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAMwBMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T07:59:09.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ComputeEpsilonClosures.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.cpp",
-              "RelativeDocumentMoniker": "ComputeEpsilonClosures.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ComputeEpsilonClosures.cpp",
-              "RelativeToolTip": "ComputeEpsilonClosures.cpp",
-              "ViewState": "AQIAABkAAAAAAAAAAAAMwCkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-21T08:03:03.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConvertToNFA.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.h",
-              "RelativeDocumentMoniker": "ConvertToNFA.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\ConvertToNFA.h",
-              "RelativeToolTip": "ConvertToNFA.h",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-20T18:22:57.234Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "output.txt",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\output.txt",
-              "RelativeDocumentMoniker": "..\\output.txt",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\output.txt",
-              "RelativeToolTip": "..\\output.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\input.txt",
+              "RelativeDocumentMoniker": "..\\input.txt",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\input.txt",
+              "RelativeToolTip": "..\\input.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-21T11:33:37.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Constants.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\Constants.h",
-              "RelativeDocumentMoniker": "Constants.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\automata\\lab5\\lab5\\Constants.h",
-              "RelativeToolTip": "Constants.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T08:15:55.416Z"
+              "WhenOpened": "2024-12-22T17:59:31.827Z"
             }
           ]
         },
