@@ -2,3 +2,7 @@ a*b*c+
 (a(b|c)d|abc*|c+)
 ((ab|aab)*a*)*
 (abc|c+b*|@)acb+c(ab|ba)
+(a(b(a|b)*|(a*b|cd)c)d|abc*|c+)
+(r*|su*t)*su*
+ab*((a|b*)df(b|a*))+
+(a+|a*b*c*|c+)+

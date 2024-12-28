@@ -140,8 +140,8 @@ NFA ConvertToNFA::ParseRegexToNFA(const string& regex)
             else if (regex[i + 1] == '+')
             {
                 BuildEndTransitions(endStates.top(), states, currID + 1);
-                states[currID][voidTransition].insert(startState.top());
-                cout << currID << "--" << voidTransition << "-->" << startState.top() << '\n';
+                states[currID + 1][voidTransition].insert(startState.top());
+                cout << currID + 1 << "--" << voidTransition << "-->" << startState.top() << '\n';
                 currID++;
                 i++;
             }

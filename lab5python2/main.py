@@ -77,8 +77,8 @@ def regular_expression_to_nfa(regex):
                 print(f"{initial_states[-1]} -- {void_transition} --> {curr_name + 1}")
             elif i + 1 < len(regex) and regex[i + 1] == '+':
                 finalize_transitions(states_to_finalize[-1], transition_table, curr_name + 1)
-                transition_table[curr_name][void_transition].add(initial_states[-1])
-                print(f"{curr_name} -- {void_transition} --> {initial_states[-1]}")
+                transition_table[curr_name + 1][void_transition].add(initial_states[-1])
+                print(f"{curr_name + 1} -- {void_transition} --> {initial_states[-1]}")
             else:
                 finalize_transitions(states_to_finalize[-1], transition_table, curr_name + 1)
 

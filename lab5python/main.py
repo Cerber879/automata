@@ -99,8 +99,8 @@ def regular_expression_to_nfa(regex):
                 i += 1
             elif i + 1 < len(regex) and regex[i + 1] == '+':
                 build_end_transitions(end_states_stack[-1], states, current_state_name + 1)
-                states[current_state_name][void_transition].add(start_state[-1])
-                print(f"{current_state_name} -- {void_transition} --> {start_state[-1]}")
+                states[current_state_name + 1][void_transition].add(start_state[-1])
+                print(f"{current_state_name + 1} -- {void_transition} --> {start_state[-1]}")
                 current_state_name += 1
                 i += 1
             else:
