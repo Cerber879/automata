@@ -107,6 +107,25 @@ void ConvertToDFA::WriteToFileDFA(const string& filename, NFA& nfa, DFA& dfa)
 {
     ofstream file(filename);
 
+    for (size_t i = 0; i < dfa.orderedStates.size(); ++i) 
+    {
+        file << ';';
+        if (i == 0)
+        {
+            file << 0;
+        }
+        else if (dfa.orderedStates[i].find("(end)") == string::npos)
+        {
+            file << 1;
+        }
+        else
+        {
+            file << 2;
+        }
+        file << ' ';
+    }
+    file << '\n';
+
     for (const string& state : dfa.orderedStates)
     {
         file << ';' << state << ' ';

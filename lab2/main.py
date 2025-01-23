@@ -4,10 +4,13 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 input_file_mealy = 'input_mealy.csv'
-input_file_moore = 'input_moore.csv'
+input_file_is_moore = 'input_moore.csv'
+in_file_to_moore = 'C:/Users/User/source/repos/automata/lab5/output.txt'
+out_file_to_moore = 'C:/Users/User/source/repos/automata/lab5/minimize.txt'
 output_file = 'output.csv'
-status = 'mealy'
+status = 'to_moore'
 
+input_file_moore = input_file_is_moore if status == 'moore' else in_file_to_moore
 is_mealy = True if status == 'mealy' else False
 start_rows_transitions = 1 if status == 'mealy' else 2
 quantity_rows_header = start_rows_transitions
@@ -51,14 +54,16 @@ def completion_new_table(table, conditions):
             else:
                 condition_of_transit = table[num_row][num_column]
 
-            copy_table[num_row][num_column] = conditions[int(condition_of_transit) - offset_numeration]
+            if condition_of_transit != '-':
+                copy_table[num_row][num_column] = conditions[int(condition_of_transit) - offset_numeration]
+            else:
+                copy_table[num_row][num_column] = '-'
 
     return copy_table
 
 
 def minimization(original_table):
     conditions = minimization_conditions(original_table, True, [])
-    print(original_table)
     prev_conditions = copy.deepcopy(conditions)
     while True:
         new_table = completion_new_table(original_table, conditions)
@@ -93,16 +98,16 @@ def general_view(original_table, table, conditions):
                 table[0][num_column - count_delete_conditions - 1] = 's' + str(passed_conditions[-1])
             else:
                 condition = table[num_row][num_column]
-                table[num_row][num_column - count_delete_conditions] = 's' + str(condition)
+                table[num_row][num_column - count_delete_conditions] = 's' + str(condition) if str(condition) != '-' else str(condition)
                 table[1][num_column - count_delete_conditions - 1] = 's' + str(passed_conditions[-1])
                 table[0][num_column - count_delete_conditions - 1] = 'y' + original_table[0][num_column - 1]
 
     delete_excess_conditions(table, count_delete_conditions)
 
 
-def read_rows_csvfile(row):
+def read_rows_csvfile(row, cnt):
     lst = []
-    for i in row:
+    for index, i in enumerate(row):
         if any(char.isalpha() for char in i):
             if '/' in i:
                 temp = i.split('/')
@@ -110,7 +115,12 @@ def read_rows_csvfile(row):
                 second_dict = ''.join(filter(str.isdigit, temp[1]))
                 i = first_dict + '/' + second_dict
             else:
-                i = ''.join(filter(str.isdigit, i))
+                if cnt < start_rows_transitions:
+                    i = ''.join(filter(str.isdigit, i))
+                elif index > 0:
+                    i = ''.join(filter(str.isdigit, i))
+                else:
+                    i = str(cnt - start_rows_transitions)
 
         lst.append(i)
 
@@ -177,12 +187,11 @@ if status == 'mealy':
     table_mealy = []
     with open(input_file_mealy, 'r') as csvfile:
         reader = csv.reader(csvfile)
-        for row in reader:
+        for count, row in enumerate(reader):
             new_row = ''.join(row).replace(';', ' ').strip().split()
-            table_mealy.append(read_rows_csvfile(new_row))
+            table_mealy.append(read_rows_csvfile(new_row, count))
 
     offset_numeration = 0 if int(table_mealy[0][0]) == 0 else 1
-    print(table_mealy)
 
     data = minimization(table_mealy)
     minimization_table = data[0]
@@ -192,25 +201,26 @@ if status == 'mealy':
     print_output(output_file, minimization_table)
     draw_graph(minimization_table, construction_graph_mealy)
 
-elif status == 'moore':
+elif status == 'moore' or status == 'to_moore':
 
     table_moore = []
     with open(input_file_moore, 'r') as csvfile:
         reader = csv.reader(csvfile)
 
-        for row in reader:
+        for count, row in enumerate(reader):
             new_row = ''.join(row).replace(';', ' ').strip().split()
-            table_moore.append(read_rows_csvfile(new_row))
+            table_moore.append(read_rows_csvfile(new_row, count))
 
     offset_numeration = 0 if int(table_moore[1][0]) == 0 else 1
 
     data = minimization(table_moore)
     minimization_table = data[0]
     conditions = data[1]
-    print(conditions)
-    for i in minimization_table:
-        print(i)
 
     general_view(table_moore, minimization_table, conditions)
-    print_output(output_file, minimization_table)
-    draw_graph(minimization_table, construction_graph_moore)
+
+    if status == 'moore':
+        print_output(output_file, minimization_table)
+        draw_graph(minimization_table, construction_graph_moore)
+    else:
+        print_output(out_file_to_moore, minimization_table)

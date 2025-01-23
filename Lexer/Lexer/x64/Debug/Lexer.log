@@ -1,0 +1,7 @@
+﻿  lexer_pascal.cpp
+C:\Users\User\source\repos\automata\Lexer\lexer_pascal.cpp(99,17): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\source\repos\automata\Lexer\lexer_pascal.cpp(206,50): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\automata\Lexer\lexer_pascal.cpp(207,48): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\automata\Lexer\lexer_pascal.cpp(213,50): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\automata\Lexer\lexer_pascal.cpp(214,48): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Lexer.vcxproj -> C:\Users\User\source\repos\automata\Lexer\x64\Debug\Lexer.exe
