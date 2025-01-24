@@ -19,7 +19,7 @@ public:
 
 private:
     void MakingTransition(int count, map<int, map<char, set<int>>>& states, int& startID, char& lastSymbol, int& currID, char& currentSymbol);
-    void ProcesingOperator(queue<char>& symbol, map<int, map<char, set<int>>>& states, int& currID, char& lastSymbol, bool needinessBegining, int startID, bool isLastCharOperator);
+    void ProcesingOperator(queue<char>& symbol, map<int, map<char, set<int>>>& states, int& currID, char& lastSymbol, bool& needinessBegining, int startID, bool isLastCharOperator);
     void BuildEndTransitions(vector<int>& endStates, map<int, map<char, set<int>>>& states, int endState);
 
     char voidTransition = '@'; 

@@ -1,2 +1,5 @@
-﻿  ConvertToDFA.cpp
+﻿  ConvertToNFA.cpp
+C:\Users\User\source\repos\automata\lab5\lab5\ConvertToNFA.cpp(42,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+  Создание кода...
   lab5.vcxproj -> C:\Users\User\source\repos\automata\lab5\lab5\x64\Debug\lab5.exe

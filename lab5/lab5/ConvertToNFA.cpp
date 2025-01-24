@@ -37,7 +37,7 @@ void ConvertToNFA::MakingTransition(int count, std::map<int, std::map<char, std:
 }
 
 void ConvertToNFA::ProcesingOperator(queue<char>& symbol, map<int, map<char, set<int>>>& states,
-    int& currID, char& lastSymbol, bool needinessBegining, int startID, bool isLastCharOperator)
+    int& currID, char& lastSymbol, bool& needinessBegining, int startID, bool isLastCharOperator)
 {
     int count = isLastCharOperator ? symbol.size() : 0;
 
@@ -100,12 +100,10 @@ NFA ConvertToNFA::ParseRegexToNFA(const string& regex)
         else if (regex[i] == '*')
         {
             ProcesingOperator(symbol, states, currID, voidTransition, needinessBegining, startState.top(), true);
-            if (needinessBegining) needinessBegining = false;
         }
         else if (regex[i] == '+')
         {
             ProcesingOperator(symbol, states, currID, symbol.back(), needinessBegining, startState.top(), true);
-            if (needinessBegining) needinessBegining = false;
         }
         else if (regex[i] == '|')
         {
@@ -117,7 +115,7 @@ NFA ConvertToNFA::ParseRegexToNFA(const string& regex)
         {
             endStates.push({ });
             ProcesingOperator(symbol, states, currID, voidTransition, needinessBegining, startState.top(), false);
-
+            
             symbol.push(voidTransition);
             ProcesingOperator(symbol, states, currID, voidTransition, needinessBegining, startState.top(), false);
 
@@ -126,7 +124,6 @@ NFA ConvertToNFA::ParseRegexToNFA(const string& regex)
         else if (regex[i] == ')')
         {
             ProcesingOperator(symbol, states, currID, voidTransition, needinessBegining, startState.top(), false);
-            needinessBegining = false;
             endStates.top().push_back(currID);
 
             if (regex[i + 1] == '*')
